@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Skills Framework and Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            margin: 1cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2cm;
+            position: relative;
+        }
+        
+        .header {
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 2cm;
+            right: 2cm;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+        
+        .week-card {
+            border-left: 4px solid #3b82f6;
+            transition: all 0.3s ease;
+        }
+        
+        .week-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .activity-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+        
+        @media print {
+            body {
+                background: none;
+            }
+            
+            .page {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-800">Study Skills Framework and Guide</h1>
+                    <h2 class="text-xl text-gray-600 mt-2">Enhancing Learning Outcomes for NSW Public High School Students (Years 7-12)</h2>
+                </div>
+                <div class="bg-blue-100 p-3 rounded-lg">
+                    <p class="text-blue-800 font-semibold">10-Week Instructional Program</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-700 mb-4">Introduction</h3>
+            <p class="text-gray-700 leading-relaxed">
+                This workbook is designed to help you develop essential study skills that will support your learning throughout high school and beyond. 
+                Each week focuses on a different aspect of effective learning, with practical activities and evidence-based strategies. 
+                By completing this program, you'll gain tools to become a more confident, efficient, and successful learner.
+            </p>
+        </div>
+        
+        <!-- Week 1 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-blue-100 text-blue-600">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 1: Goal Setting and Planning</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound)</li>
+                    <li>Backward planning from assessment dates</li>
+                    <li>Prioritization techniques (Eisenhower Matrix)</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-blue-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-blue-800">SMART Goal Workshop</p>
+                    <p class="text-gray-700 mt-1">Transform vague goals ("do better in math") into SMART goals ("improve my algebra test scores by 10% by the end of term through completing 3 extra practice problems daily").</p>
+                </div>
+                
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <p class="font-medium text-blue-800">Study Schedule Creation</p>
+                    <p class="text-gray-700 mt-1">Using digital tools (Google Calendar, Notion) or paper planners to block out study times, accounting for energy levels throughout the day.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-blue-300 pl-4 italic text-gray-600">
+                    "My SMART goal: Achieve a Band 5 in my next Science assessment by studying 45 minutes daily, completing all set homework, and attending two after-school tutorials before the exam date of May 15th."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 2 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-green-100 text-green-600">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 2: Effective Note-Taking</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Cornell Note-Taking Method (Cue Column, Notes, Summary)</li>
+                    <li>Visual note-taking strategies (mind maps, flow charts)</li>
+                    <li>Active listening techniques for lecture capture</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-green-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-green-800">Cornell Note Practice</p>
+                    <p class="text-gray-700 mt-1">Watch a short educational video and take notes using the Cornell method, then exchange with a peer to compare approaches.</p>
+                </div>
+                
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <p class="font-medium text-green-800">Concept Mapping</p>
+                    <p class="text-gray-700 mt-1">Create mind maps for current History topics showing relationships between events, causes, and consequences using colours and images.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-green-300 pl-4 italic text-gray-600">
+                    "Effective notes from a Biology lesson on photosynthesis include: diagrams of chloroplast structure, key terms defined in the margin, and a summary connecting the process to cellular respiration."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 3 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-purple-100 text-purple-600">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 3: Active Learning Techniques</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Bloom's Taxonomy question stems</li>
+                    <li>Retrieval practice benefits</li>
+                    <li>Peer teaching effectiveness (Protege Effect)</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-purple-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-purple-800">Question Generation</p>
+                    <p class="text-gray-700 mt-1">Create quiz questions at different cognitive levels (recall, application, analysis) for a recent Math topic and exchange with classmates.</p>
+                </div>
+                
+                <div class="bg-purple-50 p-4 rounded-lg">
+                    <p class="font-medium text-purple-800">Teach-Back Sessions</p>
+                    <p class="text-gray-700 mt-1">In pairs, explain a concept from English literature to your partner as if they were a younger student, then receive feedback on clarity.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-purple-300 pl-4 italic text-gray-600">
+                    "Sample higher-order question for Chemistry: 'How would you design an experiment to test the effect of temperature on reaction rates, controlling for other variables?'"
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 4 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-yellow-100 text-yellow-600">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 4: Memory and Retention Strategies</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Spaced repetition schedules (Anki flashcards)</li>
+                    <li>Mnemonic devices (acronyms, method of loci)</li>
+                    <li>Dual coding theory (combining verbal and visual)</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-yellow-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-yellow-800">Spaced Repetition Demo</p>
+                    <p class="text-gray-700 mt-1">Use digital flashcard apps to demonstrate optimal review intervals for vocabulary retention in Languages.</p>
+                </div>
+                
+                <div class="bg-yellow-50 p-4 rounded-lg">
+                    <p class="font-medium text-yellow-800">Mnemonic Creation</p>
+                    <p class="text-gray-700 mt-1">Develop memory aids for challenging sequences (e.g., mathematical order of operations, historical timelines).</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-yellow-300 pl-4 italic text-gray-600">
+                    "For remembering the planets: My Very Educated Mother Just Served Us Noodles (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 5 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-red-100 text-red-600">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 5: Critical Thinking and Problem Solving (Part 1)</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Socratic questioning techniques</li>
+                    <li>Problem decomposition strategies</li>
+                    <li>Identifying assumptions and biases</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-red-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-red-800">Socratic Seminar</p>
+                    <p class="text-gray-700 mt-1">Discuss a current issue in Geography using probing questions: "What evidence supports this view?" "What alternative explanations exist?"</p>
+                </div>
+                
+                <div class="bg-red-50 p-4 rounded-lg">
+                    <p class="font-medium text-red-800">Case Study Analysis</p>
+                    <p class="text-gray-700 mt-1">Work in groups to analyze an environmental challenge, considering stakeholders, constraints, and potential solutions.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-red-300 pl-4 italic text-gray-600">
+                    "When examining media reports, critical thinkers ask: Who benefits from this narrative? What information might be missing? How does this compare to other sources?"
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 6 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-indigo-100 text-indigo-600">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 6: Critical Thinking and Problem Solving (Part 2)</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Algorithmic vs. heuristic approaches</li>
+                    <li>Lateral thinking techniques</li>
+                    <li>Evaluating solution effectiveness</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-indigo-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-indigo-800">Complex Problem Scenarios</p>
+                    <p class="text-gray-700 mt-1">Tackle multi-step Physics problems using structured approaches (identify knowns/unknowns, select equations, check units).</p>
+                </div>
+                
+                <div class="bg-indigo-50 p-4 rounded-lg">
+                    <p class="font-medium text-indigo-800">Solution Evaluation</p>
+                    <p class="text-gray-700 mt-1">Compare different approaches to a Design challenge, assessing pros/cons of each method.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-indigo-300 pl-4 italic text-gray-600">
+                    "In solving algebraic equations, systematic approaches (balance method) often prove more reliable than trial-and-error, especially with complex problems."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 7 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-pink-100 text-pink-600">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 7: Exam Preparation Techniques (Part 1)</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Testing effect and desirable difficulties</li>
+                    <li>Marking rubric analysis</li>
+                    <li>Stress inoculation through practice</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-pink-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-pink-800">Past Paper Analysis</p>
+                    <p class="text-gray-700 mt-1">Deconstruct sample answers to identify what constitutes a Band 6 response in English essays.</p>
+                </div>
+                
+                <div class="bg-pink-50 p-4 rounded-lg">
+                    <p class="font-medium text-pink-800">Timed Practice</p>
+                    <p class="text-gray-700 mt-1">Complete a shortened exam under timed conditions to build pacing awareness.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-pink-300 pl-4 italic text-gray-600">
+                    "Top-performing students typically: review past papers early, identify recurring question types, and practice writing responses within time limits."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 8 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-teal-100 text-teal-600">
+                    <i class="fas fa-stopwatch"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 8: Exam Preparation Techniques (Part 2)</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Time allocation strategies</li>
+                    <li>Error analysis and pattern recognition</li>
+                    <li>Performance review protocols</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-teal-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-teal-800">Exam Simulation</p>
+                    <p class="text-gray-700 mt-1">Complete a full-length practice exam at home under exam conditions, then bring marked papers for review.</p>
+                </div>
+                
+                <div class="bg-teal-50 p-4 rounded-lg">
+                    <p class="font-medium text-teal-800">Time Management Drill</p>
+                    <p class="text-gray-700 mt-1">Practice allocating time across different question types based on mark value and difficulty.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-teal-300 pl-4 italic text-gray-600">
+                    "For a 2-hour exam with 3 sections: spend 5 minutes planning, allocate 35 minutes per major essay, and reserve 20 minutes for review."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 9 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-orange-100 text-orange-600">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 9: Feedback and Reflection</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Growth mindset principles</li>
+                    <li>Feedback interpretation frameworks</li>
+                    <li>Metacognitive reflection techniques</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-orange-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-orange-800">Feedback Decoding</p>
+                    <p class="text-gray-700 mt-1">Translate teacher comments into specific improvement actions (e.g., "develop arguments further" = add counterarguments).</p>
+                </div>
+                
+                <div class="bg-orange-50 p-4 rounded-lg">
+                    <p class="font-medium text-orange-800">Learning Journal</p>
+                    <p class="text-gray-700 mt-1">Maintain reflective entries tracking study strategy effectiveness and personal growth.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-orange-300 pl-4 italic text-gray-600">
+                    "Reflective entry: My spaced repetition helped with Chemistry formulas, but I need to apply concepts more in practice questions as suggested in my feedback."
+                </div>
+            </div>
+        </div>
+        
+        <!-- Week 10 -->
+        <div class="week-card bg-white p-6 rounded-lg shadow-sm mb-6">
+            <div class="flex items-center mb-4">
+                <div class="activity-icon bg-emerald-100 text-emerald-600">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800">Week 10: Supporting Wellbeing and Resilience</h3>
+            </div>
+            
+            <div class="ml-16">
+                <h4 class="font-medium text-gray-700 mb-2">Key Concepts:</h4>
+                <ul class="list-disc pl-5 text-gray-700 mb-4 space-y-1">
+                    <li>Stress response physiology</li>
+                    <li>Productive rest principles</li>
+                    <li>Attention restoration theory</li>
+                </ul>
+                
+                <h4 class="font-medium text-gray-700 mb-2">Activities:</h4>
+                <div class="bg-emerald-50 p-4 rounded-lg mb-3">
+                    <p class="font-medium text-emerald-800">Mindfulness Practice</p>
+                    <p class="text-gray-700 mt-1">Guided breathing exercises and body scans to develop focus and stress management skills.</p>
+                </div>
+                
+                <div class="bg-emerald-50 p-4 rounded-lg">
+                    <p class="font-medium text-emerald-800">Study-Life Balance Plan</p>
+                    <p class="text-gray-700 mt-1">Create personalized schedules incorporating adequate sleep, physical activity, and social connection.</p>
+                </div>
+                
+                <h4 class="font-medium text-gray-700 mt-4 mb-2">Exemplar:</h4>
+                <div class="border-l-4 border-emerald-300 pl-4 italic text-gray-600">
+                    "Effective students often follow the 50/10 rule: 50 minutes of focused study followed by 10 minutes of complete break (walking, stretching, not screens)."
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Study Skills Framework and Guide © 2025 M Blakeley</p>
+        </div>
+    </div>
+    
+    <div class="no-print fixed bottom-4 right-4">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-full shadow-lg transition-all duration-300 flex items-center">
+            <i class="fas fa-print mr-2"></i> Print Workbook
+        </button>
+    </div>
+</body>
+</html>
